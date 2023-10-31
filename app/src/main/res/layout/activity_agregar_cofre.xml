@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
-        android:text="Agregar Cofre"
+        android:text="Agregar Baul/Cofre Al Inventario"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -37,11 +37,11 @@
                 android:id="@+id/e_nombreitem"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Nombre Cofre"
-                android:inputType="text"
                 android:layout_marginTop="8dp"
-                android:layout_marginBottom="16dp" />
+                android:layout_marginBottom="16dp"
+                android:ems="10"
+                android:hint="Nombre"
+                android:inputType="text" />
 
             <ImageView
                 android:id="@+id/cofre_imagen"
@@ -62,11 +62,11 @@
 
             <Button
                 android:id="@+id/agregarCofre"
-                android:backgroundTint="#0099FF"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Agregar Cofre"
-                android:onClick="agregarCofre" />
+                android:backgroundTint="#0099FF"
+                android:onClick="agregarCofre"
+                android:text="Agregar" />
 
         </LinearLayout>
     </ScrollView>
