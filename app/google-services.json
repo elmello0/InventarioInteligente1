@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "362712502887",
+    "project_id": "inventario-inteligente-85045",
+    "storage_bucket": "inventario-inteligente-85045.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362712502887:android:764d46bff9bb1f589afac2",
+        "android_client_info": {
+          "package_name": "com.example.inventariointeligente"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO66ccgtSHKWdPwjRVH5mxol2iNtiLrbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#007FFF</item>
+        <item name="colorPrimaryDark">#0055CC</item>
+        <item name="colorAccent">#007FFF</item>
+    </style>
+
+
+    <style name="CustomButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/custom_button_background</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+</resources>

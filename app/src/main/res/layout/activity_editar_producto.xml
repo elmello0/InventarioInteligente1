@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.inventariointeligente.EditarProductoActivity">
+
+    <EditText
+        android:id="@+id/edit_nombre_producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del producto" />
+
+    <EditText
+        android:id="@+id/edit_cantidad_producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edit_precio_unidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio por unidad"
+        android:inputType="numberDecimal" />
+
+
+    <Button
+        android:id="@+id/btn_guardar_cambios"
+        android:backgroundTint="#0099FF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Cambios"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

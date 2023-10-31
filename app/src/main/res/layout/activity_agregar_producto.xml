@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+        <ImageView
+            android:id="@+id/imagenProducto"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/ic_launcher_foreground"
+            android:layout_marginBottom="8dp"/>
+
+
+        <Button
+            android:id="@+id/btnSeleccionarImagen"
+            android:backgroundTint="#0099FF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar imagen"
+            android:layout_marginBottom="16dp"/>
+
+
+        <EditText
+            android:id="@+id/editTextNombreProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:inputType="text"
+            android:layout_marginBottom="8dp"/>
+
+
+        <EditText
+            android:id="@+id/editTextCantidadProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cantidad"
+            android:inputType="number"
+            android:layout_marginBottom="8dp"/>
+
+
+        <EditText
+            android:id="@+id/editTextPrecioUnidadProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precio unidad"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Botón para agregar el producto -->
+        <Button
+            android:id="@+id/botonAgregarProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar"
+            android:backgroundTint="#0099FF"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
